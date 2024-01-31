@@ -25,9 +25,11 @@ nav{
 a {
   font-weight: 500;
   text-decoration: none;
+  color: #d0adf0;
 }
 a:hover {
   color: aqua;
+  cursor: pointer;
 }
 
 body {

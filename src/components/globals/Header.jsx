@@ -9,6 +9,7 @@ export default function Header(){
             <nav>
                 <Link to='/'>Início</Link>
                 <Link to='/itens'>Itens</Link>
+                <a href="https://github.com/Brayan-Pereira/stock-manager">Github</a>
             </nav>
         </div>
     )
