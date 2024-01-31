@@ -32,7 +32,7 @@ export default function Home() {
         let arrayScarce = []
 
         itens.map((item) => {
-            if (item.quant < 10) {
+            if (item.quant <= 10) {
                 quant++
 
                 let scarceItem = {
