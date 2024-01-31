@@ -1,0 +1,25 @@
+.section_item{
+    padding: 1rem 2rem;
+}
+
+.name_and_acoes{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.name_and_acoes h2{
+    margin-right: 2rem;
+}
+
+.name_and_acoes button{
+    height: 50px;
+}
+
+.characteristics{
+    padding-bottom: 1rem;
+}
+
+h3{
+    font-weight: 500;
+}

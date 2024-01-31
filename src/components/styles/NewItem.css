@@ -1,0 +1,22 @@
+.top_form{
+    display: flex;
+    gap: 2rem;
+}
+.newItem{
+    display: flex;
+}
+
+.btn_newItem_salvar{
+    margin-top: 1rem;
+}
+form{
+    margin: 1rem auto;
+}
+
+input, select{
+    width: 15rem;
+    margin: 1rem 0;
+}
+
+
+

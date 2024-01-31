@@ -1,0 +1,14 @@
+h1{
+    font-weight: 300;
+}
+
+.cards{
+    display: flex;
+    padding-bottom: 2rem;
+    gap: 2rem;
+}
+
+.Tables{
+    display: flex;
+    gap: 2rem;
+}

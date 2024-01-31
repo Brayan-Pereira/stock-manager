@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    justify-content: space-between;
+    
+}
+
+h2{
+    font-weight: 400;
+    font-size: 25px;
+}
+

@@ -1,0 +1,22 @@
+.id {
+    width: 30%;
+}
+
+.nome, .categoria, .estoque
+{
+    width: 15%;
+}
+
+.acoes {
+    width: 45%;
+}
+
+table{
+    width: 100%;
+}
+
+button{
+    margin-right: 20px;
+}
+
+
