@@ -13,3 +13,8 @@ A aplicação consiste em 5 Pages:
 • Item-Page: página acessada através de qualquer botão " ver ", presente em qualquer tabela da aplicação. Permite ver o dados específicos de cada item do estoque.
 
 • UpdateItem-Page: assim com a anterior, pode ser acessada através de qualquer botão "atualizar", consiste em um formulário onde se pode atualizar determinados dados de um item.
+
+
+Links: 
+repositório: https://lnkd.in/dKtwnwEq
+deploy: https://lnkd.in/d6BiUse4
