@@ -5,7 +5,7 @@
 .card{
     color: #ffffff;
     background-color: #1a1a1a;
-    width: 300px;
+    width: 210px;
     border-radius: 10px;
     padding: 1rem 2rem;
     border: 4px solid transparent;
@@ -14,6 +14,8 @@
 .card:hover{
   border-color: aqua;
 }
+
+
 
 .description p{
   font-size: 20px;
@@ -24,7 +26,6 @@
   text-align: center;
   width: 100%;
   padding-top: 1rem;
-  padding-bottom: 1.5rem;
   color:aqua ;
 }
 
@@ -40,4 +41,10 @@
     }
 
   }
+
+  @media(max-width:650px){
+    .card {
+        padding-bottom: 0rem;
+    }
+}
   

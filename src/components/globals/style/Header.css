@@ -11,3 +11,30 @@ h2{
     font-size: 25px;
 }
 
+@media(max-width: 1000px) {
+    .header{
+        width: 90vw;
+    }
+
+    nav{
+        padding: 2rem;
+        border-color: #ffffff;
+        border-top: 1px solid;
+    }
+
+}
+
+
+@media(max-width:650px){
+    .header{
+        display: block;
+        text-justify: center;
+    }
+}
+
+@media(max-width: 450px){
+    .header{
+        width: 80vw;
+        
+    }
+}

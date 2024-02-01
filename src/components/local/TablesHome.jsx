@@ -37,7 +37,7 @@ export default function TableHome({ status, obj }) {
                 {obj.map((item) => (
                     <tr>
                         <td>{item.name}</td>
-                        <td></td>
+                        <td>{item.qtd}</td>
                         <td><Link to={`/itens/${item.id}`}>
                             <button className="btn_acoes_ver" >Ver</button>
                         </Link></td>

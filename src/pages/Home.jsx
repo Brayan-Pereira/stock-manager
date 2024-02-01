@@ -43,7 +43,8 @@ export default function Home() {
 
                     let scarceItem = {
                         name: item.name,
-                        id: item.id
+                        id: item.id,
+                        qtd: item.quant
                     }
 
                     arrayScarce.push(scarceItem)
