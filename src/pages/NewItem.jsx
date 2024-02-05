@@ -82,7 +82,7 @@ export default function NewItem() {
                     <div className="question">
                         <label htmlFor="categoria">Categoria</label>
                         <div className="input_form">
-                            <select name="categoria" id="categoria" onClick={(e) => setCategory(e.target.value)}>
+                            <select name="categoria" id="categoria" onChange={(e) => setCategory(e.target.value)}>
                                 <option value="">Selecione um item</option>
                                 <option
                                     value="Roupas"
