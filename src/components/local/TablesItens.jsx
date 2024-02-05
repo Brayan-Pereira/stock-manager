@@ -31,7 +31,7 @@ export default function TableItens() {
                             <th className="nome">Nome</th>
                             <th className="estoque">Em estoque</th>
                             <th className="categoria">Categoria</th>
-                            <th className="acoes">Ações</th>
+                            <th className="acoes_Itens">Ações</th>
                         </tr>
                         {
 
