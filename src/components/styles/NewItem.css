@@ -1,22 +1,58 @@
-.top_form{
-    display: flex;
+.top_form {
+    display: grid;
     gap: 2rem;
-}
-.newItem{
-    display: flex;
+    grid-template-columns: repeat(4, 1fr);
 }
 
-.btn_newItem_salvar{
+.newItem {
+    display: grid;
+}
+
+.btn_newItem_salvar {
     margin-top: 1rem;
 }
-form{
+
+form {
     margin: 1rem auto;
 }
 
-input, select{
+input,
+select {
     width: 15rem;
     margin: 1rem 0;
 }
 
+textarea {
+    width: 93%;
+    height: 170px;
+}
 
+@media(max-width: 1250px) {
+    .top_form {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    select {
+        width: 17rem;
+    }
+
+    input,
+    select {
+        margin: .5rem 0;
+    }
+
+    textarea {
+        width: 75%;
+    }
+}
+
+@media(max-width:650px){
+    .top_form {
+        grid-template-columns: 1fr;
+    }
+
+    textarea {
+        width: 15rem;
+    }
+
+}

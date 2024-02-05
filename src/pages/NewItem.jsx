@@ -145,8 +145,6 @@ export default function NewItem() {
                         <textarea
                             name="description"
                             id="description"
-                            cols="140"
-                            rows="10"
                             value={description}
                             onChange={(e) => { setDescription(e.target.value) }}
                             required></textarea>
