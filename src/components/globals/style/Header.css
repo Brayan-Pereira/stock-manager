@@ -16,10 +16,9 @@ h2{
         width: 90vw;
     }
 
-    nav{
+    .nav_main{
         padding: 2rem;
-        border-color: #ffffff;
-        border-top: 1px solid;
+        
     }
 
 }
@@ -30,11 +29,15 @@ h2{
         display: block;
         text-justify: center;
     }
+
+    .nav_main{
+        border-color: #ffffff;
+        border-top: 1px solid;
+    }
 }
 
 @media(max-width: 450px){
     .header{
         width: 80vw;
-        
     }
 }
