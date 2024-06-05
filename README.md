@@ -1,18 +1,43 @@
 # Gerenciador de Estoque - React.js
 
-Uma aplicação SPA em react.js- "puro" que tem como principal objetivo, o gerenciamento de estoque.
+Descrição do Projeto:
 
-A aplicação consiste em 5 Pages:
+A aplicação é uma Single Page Application (SPA) desenvolvida em React.js, projetada para facilitar o gerenciamento de estoque de uma empresa. O sistema oferece diversas funcionalidades para monitorar e controlar o estoque de produtos de forma eficiente e intuitiva.
 
-• Home-Page: Tela inicial apresenta um dashbord simples e funcional com duas partes:
-     • Primeira-parte são componentes com informações em quantidade referente a  °diversidade de itens(leva em consideração a diferença entre as categorias de cada item),  °inventário total (a soma da quantidade de todos os itens em estoque), °itens recentes - função ainda em teste (consiste em analisar a quantidade de dias em que o item foi cadastrado, sendo este um intervalo de 5 dias), °itens acabando (analisa a quantidade de cada item em estoque e retorna a quantidade de itens que tem a quantidade de menor ou igual 10).
-     • Segunda-parte: consiste em duas tabelas que integradas com os dois últimos componentes da primeira parte, que retornaram os itens adicionados recentemente e os itens que estão acabando.
+Páginas da Aplicação:
 
-• Itens-Page: tela acessada através da barra de navegação que traz todos os itens em estoque, com os dados de índice, nome, quantidade e categoria; Além de cada item na tabela possuir seus próprios botões de ação, sendo elas: VER, ATUALIZAR, EXCLUIR. A Itens-Page também possui uma barra de navegação própria onde é possível acessar a °NewItem-Page, que permite a criação de novos itens, que serão salvos no LocalStorage.
+Página Inicial (Home-Page):
 
-• Item-Page: página acessada através de qualquer botão " ver ", presente em qualquer tabela da aplicação. Permite ver o dados específicos de cada item do estoque.
+Apresenta um dashboard simples e funcional dividido em duas partes.
+Primeira parte: exibe componentes com informações importantes, como a quantidade de itens por categoria, o inventário total (soma da quantidade de todos os itens em estoque), itens adicionados recentemente e itens que estão acabando.
+Segunda parte: consiste em duas tabelas que mostram os itens adicionados recentemente e os itens que estão acabando, integradas com os componentes da primeira parte.
+Página de Itens (Itens-Page):
 
-• UpdateItem-Page: assim com a anterior, pode ser acessada através de qualquer botão "atualizar", consiste em um formulário onde se pode atualizar determinados dados de um item.
+Acessada através da barra de navegação, exibe todos os itens em estoque em uma tabela com informações como índice, nome, quantidade e categoria.
+Cada item na tabela possui botões de ação para visualizar, atualizar ou excluir.
+Possui uma barra de navegação própria que permite acessar a página de criação de novos itens (NewItem-Page).
+Página de Item (Item-Page):
+
+Acessada através do botão "Ver" em qualquer tabela da aplicação.
+Permite visualizar os detalhes específicos de cada item do estoque.
+Página de Atualização de Item (UpdateItem-Page):
+
+Acessada através do botão "Atualizar" em qualquer tabela da aplicação.
+Apresenta um formulário onde é possível atualizar determinados dados de um item do estoque.
+Funcionalidades Principais:
+
+Monitoramento em tempo real da quantidade de itens por categoria.
+Visualização do inventário total e dos itens recentemente adicionados.
+Identificação rápida dos itens que estão acabando.
+Gerenciamento completo dos itens em estoque, incluindo visualização, atualização e exclusão.
+Capacidade de adicionar novos itens ao estoque através da página de criação de novos itens.
+Tecnologias Utilizadas:
+
+React.js: Utilizado para criar a interface de usuário interativa e dinâmica da aplicação.
+LocalStorage: Utilizado para armazenar temporariamente os dados dos itens em estoque, garantindo persistência entre sessões do usuário.
+Bootstrap ou Material-UI: Frameworks utilizados para facilitar o desenvolvimento e estilização responsiva da interface de usuário.
+JavaScript (ES6+): Utilizado para adicionar funcionalidades interativas e dinâmicas à aplicação, como manipulação do DOM e comunicação com APIs.
+React Router: Utilizado para gerenciar a navegação entre as diferentes páginas da aplicação.
 
 
 Links: 
